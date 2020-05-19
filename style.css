@@ -161,6 +161,15 @@ h3, li {
 padding-bottom: 0;
 }
 
+.melink {
+  text-decoration: none;
+  color: white;
+}
+
+.melink:hover {
+  color: black;
+}
+
 
 /*pictures*/
 
@@ -211,62 +220,32 @@ padding-bottom: 0;
     text-align: center;
   }
 
-  .navlink, .computer, .ihelpyou, .optional {
+  .computer, .ihelpyou, .optional {
   display: none;
-}
+   }
 
-.navbar {
+   .navlink {
+    text-decoration: none;
+    color:#C83B44;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+  }
+
+ .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-}
+  justify-content: space-evenly;
+ }
 
 
-.buttonwork:hover {
+ .buttonwork:hover {
   color: #ffffff;
   background-color: #C83B44;
   border: 1px solid #C83B44;
+ }
+
 }
 
-
-
-.fa-bars {
-  color: #C83B44;
-  margin-top: 10px;
-  background-color: white;
-}
-
-.fa-bars:hover, .fa-bars:focus {
-  color: black;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  right: 0;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: #C83B44;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  color: black;
-}
-
-.show {display:block;}
 
 
 
