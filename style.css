@@ -1,0 +1,380 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather' , serif;
+  padding: 0;
+}
+
+/*sections*/
+
+.firstsection, .footer {
+    background-color: #C83B44;
+    
+}
+
+.navbar, .secondsection, .contactme, .mywork{
+  background-color: white;
+  text-align: center;
+}
+
+
+
+.firstsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topcloud {
+  align-self: flex-end;
+}
+
+.myskills {
+  padding-top: 10px;
+}
+
+
+.mywork {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.aboutme {
+  background-color: #f3f3f3;
+  padding-bottom: 10px;
+}
+
+
+.secondsection {
+  padding-bottom: 20px;
+}
+
+hr {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+
+
+
+
+.email:hover {
+  color: #C83B44;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.i {
+  width: 5%;
+  color: #ffffff;
+}
+i:hover {
+  color: black;
+}
+.copyright{
+  color: #ffffff;
+  font-size: 10px;
+}
+
+
+/*texts*/
+
+.navbar {
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 1%;
+}
+
+
+
+.navlink {
+ text-decoration: none;
+ color:#C83B44;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.navlink:hover {
+ color: black;
+}
+
+
+  
+.menu>li {
+ margin-right: 20px;
+ display: inline;
+}
+  
+
+
+
+
+
+
+h1 {
+color: #F6C998;
+font-size: 5.625rem;
+margin: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+line-height: 1;
+text-align: center;
+}
+
+.subtitle {
+color: #F6C998;
+}
+
+h2 {
+  color: #5d5b6a;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.text {
+  padding-left: 15px;;
+  padding-right: 15px;
+}
+
+.help, .myskills, .contact {
+  color: #C83B44;
+}
+
+.hello, .work {
+  color: #C83B44
+}
+
+
+
+h3, li {
+ color: black;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.contact {
+padding-bottom: 0;
+}
+
+.melink {
+  text-decoration: none;
+  color: white;
+}
+
+.melink:hover {
+  color: black;
+}
+
+
+/*pictures*/
+
+.dounia {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.cloud {
+  width: 20%;
+}
+
+
+.mountain {
+  width: 25%;
+}
+
+
+.picofme {
+  border-radius: 50%;
+  margin-top: 100px;
+  width: 20%;
+}
+
+.computer, .ihelpyou {
+  width: 25%;
+}
+
+.quizskills {
+  width: 100px;
+  height: 100px;
+  padding: 20px 10px 20px 10px; 
+}
+
+.quizscreenshot {
+  width: 200px;
+
+}
+
+.buttonlink{
+  text-decoration: none;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+
+
+.buttonlink:link, .buttonlink:visited {
+  color: #C83B44;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.buttonlink:hover, .buttonlink:active {
+  color: white;
+  background-color: #C83B44;
+  border: 1px solid #C83B44;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) {
+  * {
+    text-align: center;
+  }
+
+  
+
+
+  .computer, .ihelpyou, .optional {
+  display: none;
+   }
+
+   .navlink {
+    text-decoration: none;
+    color:#C83B44;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+  }
+
+ .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ }
+
+
+}
+
+
+
+
+@media screen and (min-width: 640px) {
+ 
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navlink {
+  text-decoration: none;
+  color:#C83B44;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+}
+
+
+
+.navlink:hover {
+  color: black;
+  }
+
+  .dropbutton {
+    display: none;
+  }
+
+
+
+
+
+
+
+.skillrow {
+width: 50%;
+margin: 50px auto 50px auto;
+text-align: left;
+padding-top: 30px;
+}
+
+.computer, .ihelpyou {
+  display: none;
+}
+
+
+.mywork {
+  padding-bottom: 100px;
+}
+
+
+
+}
+
+
+
+@media screen and (min-width: 864px) {
+
+
+ .skillrow {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  padding-top: 30px;
+  }
+  .computer {
+  display: inline;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  }
+  .ihelpyou {
+  display: inline;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  }
+
+  .optional {
+    display: inline-block;
+  }
+
+
+  .quiztitle {
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
+  .quizscreenshot {
+      display: inline-block;
+      vertical-align: top;
+      width: 30%;
+      margin-right: 80px;
+      padding-top: 10px;
+    }
+    .extrasection {
+      display: inline-block;
+      width: 30%;
+    }
+  
+   .skilllink {
+    list-style: none;
+    display: inline-block;
+    margin-right: 7px;
+   }
+}
